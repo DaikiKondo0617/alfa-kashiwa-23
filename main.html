@@ -109,9 +109,9 @@ Youtube貼り付けここまで -->
               <p class="text-center">地下室に入ることができた！<br>
                 仲間と金庫を探すが...見当たらない...？<br>
                 「ガシャッ」<br>
-                背後の音に驚いて後ろを振り向くと<br>
-                入ってきた扉が閉められている<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+                突然の背後の音に驚いて後ろを振り向くと、ここへ入るとき開いた扉が閉められている！<br>
+                扉は固く閉ざされており、暗号を入力するロックがかかっている<br>
+                この暗号を解けば地下室から出られるはずだ！</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -182,9 +182,8 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage2']" v-bind:class="{isClear:clear['stage2']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE：2　クリア！</div>
-              <div class="clear-message__content">黒板の指示に従い、<br>
-                次のステージの謎を解こう！</div>
+              <div class="clear-message__title">STAGE：2　ロックを解除できた！</div>
+              <div class="clear-message__content">地下室を脱出しよう！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
