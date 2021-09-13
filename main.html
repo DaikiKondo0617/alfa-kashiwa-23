@@ -84,9 +84,8 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">セキュリティーを止められた！<br>
-                情報管理室に行った仲間から連絡が来た<br>
-                どうやら地下にある金庫の中に爆弾の機密情報があるそうだ。地下室へ向かって情報を奪おう！</div>
+              <div class="clear-message__title">セキュリティーを止めることができた。<br>
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -106,12 +105,10 @@ Youtube貼り付けここまで -->
           <div class="section">
             <div class="container">
               <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>地下室を脱出せよ！</h2>
-              <p class="text-center">地下室に入ることができた！<br>
-                仲間と金庫を探すが...見当たらない...？<br>
-                「ガシャッ」<br>
-                突然の背後の音に驚いて後ろを振り向くと、ここへ入るとき開いた扉が閉められている！<br>
-                扉は固く閉ざされており、暗号を入力するロックがかかっている<br>
-                この暗号を解けば地下室から出られるはずだ！</p>
+              <p class="text-center">司令室に機密情報があることがわかり、司令室に向かった。<br>
+                司令室に行くと爆弾の情報と地下室にも何かがあると書かれていたが、地下室の情報は秘密結社が用意した罠だった。<br>
+                敵の罠にハマってしまい地下室から出られなくなってしまった。<br>
+                相棒を地下室から脱出させよう。</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
@@ -183,7 +180,7 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：2　ロックを解除できた！</div>
-              <div class="clear-message__content">地下室を脱出しよう！</div>
+              <div class="clear-message__content">地下室から脱出に成功した！！</div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -199,9 +196,8 @@ Youtube貼り付けここまで -->
         <section class="section">
           <div class="container">
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>爆弾解除を成功させよう！</h2>
-            <p class="text-center">入手した情報によると、爆弾が自分の組織のガス室にあることがわかった。<br>
-              ガス室にロボットを送り込み、そのロボットのカメラを通して爆弾を解除したい。<br>
-              爆弾解除のために最後の謎を解こう！</p>
+            <p class="text-center">司令室で入手した情報から、爆弾が自分の組織のガス室にあることがわかった。<br>
+              ガス室にロボットを送り込み、そのロボットのカメラを通して爆弾を解除しよう。</p>
             <figure class="image__container">
               <img src="quiz3.png" alt="">
             </figure>
