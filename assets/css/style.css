@@ -174,7 +174,7 @@ button {
   content: '';
   width: calc(100% - 60px);
   height: 7px;
-  background-color: #fcee21;
+  background-color: #100e25;
   position: absolute;
   top: -10px;
   left: 30px;
@@ -335,7 +335,7 @@ button {
   display: block;
   text-decoration: none;
   cursor: pointer;
-  background-color: #006837;
+  background-color: #877994;
   color: #fff;
   font-size: 24px;
   line-height: 1.54167;
