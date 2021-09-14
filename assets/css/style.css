@@ -148,7 +148,6 @@ button {
 
 .card {
   background-color: #fff;
-  margin-bottom: 20px;
   height: 100%;
 }
 
@@ -239,7 +238,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #39b54a;
+  background-color: #515971;
 }
 
 .bg-color--subcolor {
@@ -247,7 +246,7 @@ button {
 }
 
 .bg-color--gray {
-  background-color: #e6e6e6;
+  background-color: #556c79d9;
 }
 
 /*********************
@@ -292,7 +291,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #39b54a;
+  background-color: #414b5dad;
 }
 
 .section-title--story {
