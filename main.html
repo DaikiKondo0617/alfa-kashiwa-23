@@ -84,9 +84,9 @@ Youtube貼り付けここまで -->
         <section v-if="clear['stage1']" v-bind:class="{isClear:clear['stage1']}"  class="section section--clear bg-color--gray">
           <div class="container">
             <div class="clear-message">
-              <div class="clear-message__title">STAGE:ロックを解除できた！
+              <div class="clear-message__title">STAGE1:ロックを解除できた！
 　　　　　　　　　　　　　　　　　　　　　　　　　　　　</div>
-              <div class="clear-message_content">セキュリティを停止した。</div>
+              <div class="clear-message__content">セキュリティを停止した。</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
